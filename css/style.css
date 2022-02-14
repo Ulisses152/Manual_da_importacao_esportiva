@@ -219,6 +219,13 @@ span {
 }
 
 @media (max-width: 768px) {
+  button {
+    font-size: 3vw !important;
+    width: 85% !important;
+  }
+  .box-logo {
+    max-height: 60px;
+  }
   .box-logo .logo {
     width: 50%;
   }
@@ -226,7 +233,7 @@ span {
     font-size: 3vw;
   }
   .text-depoimento {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .info-produto button {
     width: 85%;
@@ -236,5 +243,11 @@ span {
   }
   .quero h2 {
     text-align: center;
+  }
+  .text-depoimentos2 h2 {
+    font-size: 5.2vw;
+  }
+  .e-book-info p {
+    font-size: 1rem;
   }
 }
