@@ -2,9 +2,10 @@
 html {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 :root {
   --cor-primaria: #000;
@@ -164,7 +165,7 @@ span {
 }
 .corousel {
   width: 300px !important;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .carousel-inner {
   width: 300px !important;
@@ -219,10 +220,6 @@ span {
 }
 
 @media (max-width: 768px) {
-  button {
-    font-size: 3vw !important;
-    width: 85% !important;
-  }
   .box-logo {
     max-height: 60px;
   }
@@ -232,22 +229,43 @@ span {
   .box-logo i {
     font-size: 3vw;
   }
+  header .btn {
+    width: 80%;
+    font-size: 3.2vw;
+    font-weight: 700;
+  }
   .text-depoimento {
-    font-size: 3vw;
+    overflow-y: hidden;
+    font-size: 3.2vw;
   }
   .info-produto button {
-    width: 85%;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 3vw;
   }
   .text-garantia {
     text-align: center;
   }
   .quero h2 {
     text-align: center;
+    overflow-y: hidden;
   }
   .text-depoimentos2 h2 {
     font-size: 5.2vw;
   }
   .e-book-info p {
     font-size: 1rem;
+  }
+  .e-book button {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 3.2vw;
+    font-weight: 700;
+  }
+
+  .quero button {
+    width: 100%;
+    font-size: 3.2vw;
+    font-weight: 700;
   }
 }
