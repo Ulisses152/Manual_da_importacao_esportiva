@@ -77,7 +77,7 @@ header .btn {
 
 .box-copy h2 {
   color: var(--cor-secundaria);
-  font-family: 'Just Another Hand', cursive;
+  font-family: var(--font-1);
   font-size: 2.5rem;
   overflow-y: hidden;
 }
